@@ -11,11 +11,11 @@ Fripiat, F., D.M. Sigman, A. Martínez-García, D. Marconi, X.E. Ai, A. Auderset
 
 FILE DESCRIPTION for the five-box model:
 
-fivebox_ocean_isotopes_main_template.m : master file for the five-box model which is run with one given set of parameters.
-fivebox_ocean_isotopes_ode.m : ODE solver for the "fivebox_ocean_isotopes_main_template.m"
-fivebox_ocean_isotopes_main_template_sensitivity.m : master file for the sensitivity experiments for the five-box model 
-fivebox_ocean_isotopes_sensitivity_ode.m : ODE solver for the "fivebox_ocean_isotopes_main_template_sensitivity.m"
-fivebox_sensitivity_generation.m : script to generate the "sensitivity" matrix being used in "fivebox_ocean_isotopes_main_template_sensitivity.m"
+- fivebox_ocean_isotopes_main_template.m : master file for the five-box model which is run with one given set of parameters.
+- fivebox_ocean_isotopes_ode.m : ODE solver for the "fivebox_ocean_isotopes_main_template.m"
+- fivebox_ocean_isotopes_main_template_sensitivity.m : master file for the sensitivity experiments for the five-box model 
+- fivebox_ocean_isotopes_sensitivity_ode.m : ODE solver for the "fivebox_ocean_isotopes_main_template_sensitivity.m"
+- fivebox_sensitivity_generation.m : script to generate the "sensitivity" matrix being used in "fivebox_ocean_isotopes_main_template_sensitivity.m"
 
 
 HOW TO for the five-box model which is run with one given set of parameters:
