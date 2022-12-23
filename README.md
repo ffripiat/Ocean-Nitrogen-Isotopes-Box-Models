@@ -19,11 +19,11 @@ FILE DESCRIPTION for the five-box model:
 
 
 HOW TO for the five-box model which is run with one given set of parameters:
-(i) to set the model parameters in "fivebox_ocean_isotopes_ode.m"
-(ii) to run "fivebox_ocean_isotopes_main_template.m"
+- to set the model parameters in "fivebox_ocean_isotopes_ode.m"
+- to run "fivebox_ocean_isotopes_main_template.m"
 
 HOW TO for the five-box model with the sensitivity experiments:
-(i) to run "fivebox_sensitivity_generation.m" to generate the "sensitivity" matrix by randomly varying parameters over a range well beyond literature estimates 
+- to run "fivebox_sensitivity_generation.m" to generate the "sensitivity" matrix by randomly varying parameters over a range well beyond literature estimates 
 (see table 1 in Fripiat et al. (2023))
-(ii) to run "fivebox_ocean_isotopes_main_template_sensitivity.m"
+- to run "fivebox_ocean_isotopes_main_template_sensitivity.m"
 
