@@ -27,3 +27,22 @@ HOW TO for the five-box model with the sensitivity experiments:
 (see table 1 in Fripiat et al. (2023))
 - to run "fivebox_ocean_isotopes_main_template_sensitivity.m"
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+FILE DESCRIPTION for the nine-box model:
+
+- ninebox_ocean_isotopes_main_template.m : master file for the nine-box model which is run with one given set of parameters.
+- ninebox_ocean_isotopes_ode.m : ODE solver for the "ninebox_ocean_isotopes_main_template.m"
+- ninebox_ocean_isotopes_main_template_sensitivity.m : master file for the sensitivity experiments for the nine-box model 
+- ninebox_ocean_isotopes_sensitivity_ode.m : ODE solver for the "ninebox_ocean_isotopes_main_template_sensitivity.m"
+- ninebox_sensitivity_generation.m : script to generate the "sensitivity" matrix being used in "ninebox_ocean_isotopes_main_template_sensitivity.m"
+
+
+HOW TO for the nine-box model which is run with one given set of parameters:
+- to set the model parameters in "ninebox_ocean_isotopes_ode.m"
+- to run "ninebox_ocean_isotopes_main_template.m"
+
+HOW TO for the nine-box model with the sensitivity experiments:
+- to run "ninebox_sensitivity_generation.m" to generate the "sensitivity" matrix by randomly varying parameters over a range well beyond literature estimates 
+(see table 1 in Fripiat et al. (2023))
+- to run "ninebox_ocean_isotopes_main_template_sensitivity.m"
