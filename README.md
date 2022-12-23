@@ -9,15 +9,21 @@ Fripiat, F., D.M. Sigman, A. Martínez-García, D. Marconi, X.E. Ai, A. Auderset
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-FILE DESCRIPTION:
+FILE DESCRIPTION for the five-box model:
 
 fivebox_ocean_isotopes_main_template.m : master file for the five-box model which is run with one given set of parameters.
-fivebox_ocean_isotopes_ode.m : ODE solver for the five-box model which is run with one given set of parameters.
+fivebox_ocean_isotopes_ode.m : ODE solver for the "fivebox_ocean_isotopes_main_template.m"
+fivebox_ocean_isotopes_main_template_sensitivity.m : master file for the sensitivity experiments for the five-box model 
+fivebox_ocean_isotopes_sensitivity_ode.m : ODE solver for the "fivebox_ocean_isotopes_main_template_sensitivity.m"
+fivebox_sensitivity_generation.m : script to generate the "sensitivity" matrix being used in "fivebox_ocean_isotopes_main_template_sensitivity.m"
 
 
+HOW TO for the five-box model which is run with one given set of parameters:
+(i) to set the model parameters in "fivebox_ocean_isotopes_ode.m"
+(ii) to run "fivebox_ocean_isotopes_main_template.m"
 
-
-
-
-HOW TO:
+HOW TO for the five-box model with the sensitivity experiments:
+(i) to run "fivebox_sensitivity_generation.m" to generate the "sensitivity" matrix by randomly varying parameters over a range well beyond literature estimates 
+(see table 1 in Fripiat et al. (2023))
+(ii) to run "fivebox_ocean_isotopes_main_template_sensitivity.m"
 
