@@ -5,7 +5,7 @@ Prognostic multi-box (5 and 9) ocean model to constrain the systematics of N iso
 The model is run on MATLAB. 
 
 Reference:
-Fripiat, F., D.M. Sigman, A. Martínez-García, D. Marconi, X.E. Ai, A. Auderset, S.E. Fawcett, S. Moretti, A.S. Studer and G.H. Haug (2023). The impact of incomplete nutrient consumption in the Southern Ocean on global mean ocean nitrate δ15N. Global Biogeochemical Cycles, 
+Fripiat, F., D.M. Sigman, A. Martínez-García, D. Marconi, X.E. Ai, A. Auderset, S.E. Fawcett, S. Moretti, A.S. Studer and G.H. Haug (2023). The impact of incomplete nutrient consumption in the Southern Ocean on global mean ocean nitrate δ15N. In Revision in Global Biogeochemical Cycles. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -24,7 +24,7 @@ HOW TO for the five-box model which is run with one given set of parameters:
 
 HOW TO for the five-box model with the sensitivity experiments:
 - to run "fivebox_sensitivity_generation.m" to generate the "sensitivity" matrix by randomly varying parameters over a range well beyond literature estimates 
-(see table 1 in Fripiat et al. (2023))
+(see table 1 in the reference manuscript)
 - to run "fivebox_ocean_isotopes_main_template_sensitivity.m"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,5 +44,5 @@ HOW TO for the nine-box model which is run with one given set of parameters:
 
 HOW TO for the nine-box model with the sensitivity experiments:
 - to run "ninebox_sensitivity_generation.m" to generate the "sensitivity" matrix by randomly varying parameters over a range well beyond literature estimates 
-(see table 1 in Fripiat et al. (2023))
+(see table 1 in the reference manuscript)
 - to run "ninebox_ocean_isotopes_main_template_sensitivity.m"
