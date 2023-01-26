@@ -5,7 +5,7 @@ Prognostic multi-box (5 and 9) ocean model to constrain the systematics of N iso
 The model is run on MATLAB. 
 
 Reference:
-Fripiat, F., D.M. Sigman, A. Martínez-García, D. Marconi, X.E. Ai, A. Auderset, S.E. Fawcett, S. Moretti, A.S. Studer and G.H. Haug (2023). The impact of incomplete nutrient consumption in the Southern Ocean on global mean ocean nitrate δ15N. In Revision in Global Biogeochemical Cycles. 
+Fripiat, F., D.M. Sigman, A. Martínez-García, D. Marconi, X.E. Ai, A. Auderset, S.E. Fawcett, S. Moretti, A.S. Studer and G.H. Haug (2023). The impact of incomplete nutrient consumption in the Southern Ocean on global mean ocean nitrate δ15N. Accepted in Global Biogeochemical Cycles. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
