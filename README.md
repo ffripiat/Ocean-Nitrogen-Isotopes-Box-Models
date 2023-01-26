@@ -1,5 +1,7 @@
 # Ocean-Nitrogen-Isotopes-Box-Models
 
+[![DOI](https://zenodo.org/badge/581607609.svg)](https://zenodo.org/badge/latestdoi/581607609)
+
 Prognostic multi-box (5 and 9) ocean model to constrain the systematics of N isotopes at global scale 
 
 The model is run on MATLAB. 
